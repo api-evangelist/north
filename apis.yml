@@ -1,7 +1,28 @@
 aid: north
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/north.png
 name: North
-description: North is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  North (formerly Thalmic Labs) was a wearable-computing hardware company founded
+  in 2012 in Kitchener, Ontario by University of Waterloo graduates Stephen Lake,
+  Matthew Bailey, and Aaron Grant. It first shipped the Myo gesture-control armband,
+  which read electrical muscle activity to wirelessly control computers and other
+  devices, and later pivoted to Focals, consumer smart glasses with a heads-up
+  display. A Y Combinator Winter 2013 company that raised over $140M, North was
+  acquired by Google in January 2020 and wound down; its products and consumer-facing
+  website (bynorth.com) were discontinued. This profile is retained as a network
+  record. North published no public API, developer portal, or SDKs, so there is no
+  API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/north/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,35 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: google
+x-acquired-date: '2020-01'
+x-former-name: Thalmic Labs
+x-yc-batch: W2013
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Wearables
+- Hardware
+- Smart Glasses
+- Gesture Control
+- Augmented Reality
+- Consumer Electronics
+- Acquired
+- Y Combinator
+common:
+- type: CompanyProfile
+  url: https://www.ycombinator.com/companies/north
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
